@@ -8,7 +8,7 @@ This is a simple project about classifying human activity based on images which 
 - your json path
 - your test image path
 
-Also keep in mind that you must find an image for testing and that image must be in .jpg format.
+The model classifies human activity into 6 categories: control, sitting, stairs, standing, sleeping, walking. Also keep in mind that you must find an image for testing and that image must be in .jpg format.
 
 ## Requirements
 - Python 3.10+

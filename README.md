@@ -8,10 +8,27 @@ This is a simple project about classifying human activity based on images which 
 - your json path
 - your test image path
 
-Also keep in mind that you must find an image for testing.
+Also keep in mind that you must find an image for testing and that image must be in .jpg format.
 
 ## Requirements
 - Python 3.10+
+- tensorflow
+- numpy
+
+## Model
+
+The trained EfficientNetB1 model is available on Hugging Face:
+
+[Hugging Face model](https://huggingface.co/tcan05/HumanActivityPredictor/tree/main)
+
+## Dataset
+
+The dataset is available at:
+
+- [Original Dataset](https://www.kaggle.com/datasets/jithinnambiarj/human-activity-detection-dataset/versions/1/data)
+- [Modified Dataset](https://huggingface.co/datasets/tcan05/HumanActivityDataset/tree/main)
+
+Modified dataset is the dataset I used for training the model. Only difference is that in modified dataset every image is in .jpg format.
 
 ## Installation
 1. Clone the repository:
